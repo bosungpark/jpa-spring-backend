@@ -17,10 +17,10 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Order order=new Order();
-            em.persist(order);
-
-            order.addOrderItem(new OrderItem());
+//            Order order=new Order();
+//            em.persist(order);
+//
+//            order.addOrderItem(new OrderItem());
 
             tx.commit();
         } catch (Exception e) {
